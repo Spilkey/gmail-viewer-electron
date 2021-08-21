@@ -3,7 +3,7 @@ const path = require('path');
 
 function createWindow () {
     const win = new BrowserWindow({
-        icon:'view/gmail.png',
+        icon:path.join(__dirname, 'gmail.png'),
         titleBarStyle: "hidden",
         width: 800,
         height: 600,
